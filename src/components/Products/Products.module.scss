@@ -1,0 +1,35 @@
+.products {
+  display: flex;
+  justify-content: center;
+
+  .row {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+.name {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.cardAction {
+  display: flex;
+  justify-content: flex-end;
+
+  a + button {
+    margin-left: 10px;
+  }
+}
+
+.alreadyInCart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  margin-left: 10px;
+  color: green;
+  border: 1px solid rgba(0, 128, 0, 0.432);
+  border-radius: 3px;
+}

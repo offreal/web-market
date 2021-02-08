@@ -1,0 +1,72 @@
+// .orderPage {
+
+// }
+
+.control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+
+  button + button {
+    margin-left: 10px;
+  }
+}
+
+.totalPrice {
+  font-size: 24px;
+  font-style: italic;
+
+  span {
+    color: green;
+    font-weight: bold;
+  }
+}
+
+.collectionItem {
+  position: relative;
+}
+
+.title {
+  padding: 15px 0 30px;
+
+  h5 {
+    margin: 0;
+  }
+}
+
+.leftColumn {
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+  }
+}
+
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  p {
+    margin: 0;
+    padding: 5px;
+    font-size: 16px;
+  }
+}
+
+.priceItem span {
+  color: green;
+  font-style: italic;
+}
+
+.totalPriceItem {
+  display: flex;
+  justify-content: flex-end;
+  font-style: italic;
+
+  span {
+    color: green;
+    font-weight: bold;
+  }
+}

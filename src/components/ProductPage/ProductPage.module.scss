@@ -1,0 +1,44 @@
+.title {
+  padding: 15px 0 30px;
+}
+
+.titleName {
+  margin: 0;
+  font-size: 28px;
+}
+
+.image {
+  max-width: 400px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.description {
+  padding: 20px 0;
+
+  p {
+    margin: 0;
+    padding-bottom: 3px;
+  }
+
+  p + p {
+    padding-top: 3px;
+  }
+}
+
+.alreadyInCart {
+  display: inline-flex;
+  padding: 3px 20px;
+  border: 1px solid rgba(0, 128, 0, 0.432);
+  border-radius: 3px;
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    color: green;
+  }
+}

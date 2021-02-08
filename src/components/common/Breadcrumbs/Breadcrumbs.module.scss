@@ -1,0 +1,18 @@
+.nav {
+  color: #000;
+  background-color: transparent;
+  box-shadow: none;
+
+  .breadcrumb {
+    color: rgb(63, 63, 63);
+    font-size: 14px;
+
+    &::before {
+      color: grey;
+    }
+
+    &:last-child {
+      color: grey;
+    }
+  }
+}
